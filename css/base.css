@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "dizhitl";
+    font-weight: normal;
+    color: white;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    height: 100vh;
+    background-color: var(--bg-col-1);
+    overflow-x: hidden;
+}
+body {
+    height: 100%;
+}
+main {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+a {
+    cursor: pointer;
+    user-select: none;
+}
+::selection {
+    background-color: var(--col-2);
+}

@@ -1,0 +1,10 @@
+@font-face {
+    font-weight: bold;
+    font-family: "dizhitl";
+    src: url("../fonts/dizhitl-blackitalic.ttf");
+}
+@font-face {
+    font-weight: normal;
+    font-family: "dizhitl";
+    src: url("../fonts/dizhitl-mediumitalic.ttf");
+}

@@ -1,0 +1,11 @@
+:root {
+    --col-1: #ef5353; 
+    --col-2: #9d3232;
+    --col-3: rgb(100,100,100);
+
+    --bg-col-1: rgb(40,40,40);
+    --bg-col-2: rgb(150,150,150);
+    --bg-col-3: rgba(0,0,0,0.3);
+
+    --nav-top-height: 50px;
+}

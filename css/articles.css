@@ -1,0 +1,211 @@
+section {
+    padding: 8rem 15vw;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    background-color: var(--bg-col-3);
+}
+nav + section {
+    min-height: calc(100vh - var(--nav-top-height));
+}
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+article > div.container {
+    padding-inline: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+article * {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+/* PROJECT TITLE */
+article h2 {
+    width: 100%;
+    padding-block: 0.6rem;
+    display: inline-block;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--col-1);
+    border-radius: 1.5rem;
+    box-shadow: 0 0 30px 0px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+/* STATUS */
+article > div > header {
+    display: flex;
+    gap: 5rem;
+}
+p.status > span {
+    position: relative;
+}
+p.status > span::after {
+    content: "";
+    width: 20px;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    top: 2px;
+    right: -30px;
+    border-radius: 50%;
+}
+p.status > span.green::after {
+    background-color: lime;
+}
+p.status > span.yellow::after {
+    background-color: yellow;
+}
+p.status > span.red::after {
+    background-color: red;
+}
+
+
+
+
+
+/* SUB TITLES */
+article h3 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+
+
+
+
+
+article > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+
+
+
+
+/* LISTS */
+article > div > div > ul {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+article > div > div > ul > li {
+    position: relative;
+}
+article > div > div > ul > li::before {
+    content: "-";
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+
+
+
+
+/* GITHUB BUTTON */
+article button {
+    align-self: start;
+    padding: 0.3rem 0.6rem;
+    background-color: var(--col-3);
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+article button:hover,
+article button:focus {
+    background-color: white;
+    color: black;
+}
+article a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+div.about-me-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 4rem;
+}
+div.about-me-container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+div.about-me-container div.moi {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(../img/me.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 15px 15px 30px 0px rgba(0,0,0,0.5);
+}
+
+
+
+
+@media screen and (width < 1200px) {
+    section {
+        padding-block-start: 3rem;
+    }
+    div.about-me-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div.about-me-container div.moi {
+        display: none;
+    }
+    div.about-me-container * {
+        text-align: center;
+    }
+    p.status {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (width < 850px) {
+    section {
+        padding-inline: 2rem;
+    }
+}
+
+@media screen and (width < 650px) {
+    article h2 {
+        font-size: 1.5rem;
+    }
+    article > div.container {
+        padding-inline: 0;
+    }
+    section * {
+        font-size: 1rem;
+    }
+}

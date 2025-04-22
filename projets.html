@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Killian Simon - Projets</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/root.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/animations.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/transition.css">
+        <link rel="stylesheet" href="css/background.css">
+        <link rel="stylesheet" href="css/nav-top.css">
+        <link rel="stylesheet" href="css/articles.css">
+        <script src="js/transition-manager.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head> 
+    <body>
+        <div class="transition-effect"></div>
+        <div class="background">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <table class="cross-container">
+                <tr>
+                    <td></td>
+                    <td class="cross" move-direction="left" move-delay="600" move-duration="500"></td>
+                </tr>
+                <tr>
+                    <td class="cross" move-direction="left" move-delay="500" move-duration="500"></td>
+                    <td class="cross" move-direction="left" move-delay="550" move-duration="500"></td>
+                </tr>
+            </table>
+        </div>
+        <main>
+            <nav class="top">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="me-concernant.html">Me concernant</a></li>
+                </ul>
+            </nav>
+            <header>
+                <h1>Projets</h1>
+            </header>
+            <section>
+                <article>
+                    <h2 data-aos="fade-right" data-aos-duration="1000">1. H2DE</h2>
+                    <div class="container">
+                        <header data-aos="fade-right" data-aos-duration="1000">
+                            <p class="status">Statut: <span class="green">En cours</span></p>
+                            <p>Période: 19/09/2024 - Aujourd'hui</p>
+                        </header>
+                        <div  data-aos="fade-right" data-aos-duration="1000">
+                            <h3>description</h3>
+                            <p>H2DE est un moteur de jeu 2D open source développé en C++, utilisant SDL2 pour la gestion des graphismes et des entrées. Il vise à offrir une expérience de développement efficace et flexible pour la création de jeux 2D.</p>
+                        </div>
+                        <div  data-aos="fade-right" data-aos-duration="1000">
+                            <h3>fonctionnalités</h3>
+                            <ul>
+                                <li>Création de fenêtres avec des paramètres personnalisés tels que la taille, le ratio, les FPS, etc</li>
+                                <li>Importation facile de textures et de sons.</li>
+                                <li>Gestion simplifiée de la musique et des SFX</li>
+                                <li>Prise en charge des entrées utilisateur.</li>
+                                <li>Lecture et écriture simples de fichiers JSON.</li>
+                                <li>Lecture et écriture simples de fichiers INI.</li>
+                                <li>Gestion de caméra intégrée.</li>
+                                <li>Création d'objets avec textures, sprites et hitboxes.</li>
+                                <li>Système de collisions.</li>
+                                <li>Rotation et flip d'objets.</li>
+                                <li>Affichage de texte à l'écran.</li>
+                                <li>Création de timelines avec des interpolations pour des animations fluides.</li>
+                            </ul>
+                        </div>
+                        <div  data-aos="fade-right" data-aos-duration="1000">
+                            <h3>technologies utilisées</h3>
+                            <ul>
+                                <li>C++</li>
+                                <li>SDL2</li>
+                                <li>SDL Image</li>
+                                <li>SDL GFX</li>
+                                <li>SDL Mixer</li>
+                                <li>Base64</li>
+                                <li>Inih</li>
+                            </ul>
+                        </div>
+                        <button  data-aos="fade-right" data-aos-duration="1000" onclick="window.open('https:\\\\github.com\\Hydrened\\H2DE', '_blank');">Voir le projet sur Github</button>
+                    </div>
+                </article>
+                <article>
+                    <h2 data-aos="fade-right" data-aos-duration="1000">2. Geometry Dash</h2>
+                    <div class="container">
+                        <header data-aos="fade-right" data-aos-duration="1000">
+                            <p class="status">Statut: <span class="green">Fini</span></p>
+                            <p>Période: 26/09/2024 - 23/10/2024</p>
+                        </header>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>description</h3>
+                            <p>Reproduction du jeu Geometry Dash en C++ à l'aide de mon moteur H2DE, pour tester ses capacités sur un projet complet.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>fonctionnalités</h3>
+                            <ul>
+                                <li>Menu principal avec apparition aléatoire des icônes de joueurs.</li>
+                                <li>Recréation des trois premiers niveaux du jeu original.</li>
+                                <li>Gestion des collisions avec les blocs.</li>
+                                <li>Implémentation des modes de jeu cube et ship.</li>
+                                <li>Changement dynamique des couleurs des éléments.</li>
+                                <li>Collecte des coins.</li>
+                                <li>Système de pause.</li>
+                                <li>Sauvegarde des données du joueur.</li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>technologies utilisées</h3>
+                            <ul>
+                                <li>C++</li>
+                                <li>H2DE</li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>remarque</h3>
+                            <p>Je travaille actuellement sur une version plus stable avec la dernière version de mon moteur.</p>
+                        </div>
+                        <button data-aos="fade-right" data-aos-duration="1000" onclick="window.open('https:\\\\github.com\\Hydrened\\HGD-Geometry-Dash', '_blank');">Voir le projet sur Github</button>
+                    </div>
+                </article>
+                <article>
+                    <h2 data-aos="fade-right" data-aos-duration="1000">3. Heko</h2>
+                    <div class="container">
+                        <header data-aos="fade-right" data-aos-duration="1000">
+                            <p class="status">Statut: <span class="green">Fini</span></p>
+                            <p>Période: 13/11/2024 - 17/03/2025</p>
+                        </header>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>description</h3>
+                            <p>Heko est une application de lecture musicale locale, développée avec Electron. Elle permet d'écouter facilement des musiques stockées sur l'ordinateur et de les organiser via un système de playlists hiérarchiques.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>fonctionnalités</h3>
+                            <ul>
+                                <li>Création, modification et suppression de playlists.</li>
+                                <li>Possibilité de déplacer des playlists dans d'autres playlists (système de parent).</li>
+                                <li>Ajout de musiques à l'application via drag and drop.</li>
+                                <li>Ajout et suppression de musiques aux playlists.</li>
+                                <li>Modification des métadonnées des musiques (nom, artiste).</li>
+                                <li>Suppression de musiques de l'application.</li>
+                                <li>Système de file d'attente et de lecture aléatoire.</li>
+                                <li>Lecture en boucle d'une musique.</li>
+                                <li>Contrôles de lecture : pause / reprise, piste suivante / précédente.</li>
+                                <li>Raccourcis clavier globaux (fonctionnent même en dehors de l'application).</li>
+                                <li>Réglage du volume.</li>
+                                <li>Tri des musiques dans une playlist (par ID, nom, artiste, durée).</li>
+                                <li>Filtrage des musiques dans une playlist.</li>
+                                <li>Historique des musiques écoutées.</li>
+                                <li>Sauvegarde des données.</li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>technologies utilisées</h3>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Electron</li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>Remarque</h3>
+                            <p>J'utilise Heko quotidiennement pour écouter de la musique.</p>
+                        </div>
+                        <button data-aos="fade-right" data-aos-duration="1000" onclick="window.open('https:\\\\github.com\\Hydrened\\Heko', '_blank');">Voir le projet sur Github</button>
+                    </div>
+                </article>
+                <article>
+                    <h2 data-aos="fade-right" data-aos-duration="1000">4. Unnamed Game</h2>
+                    <div class="container">
+                        <header data-aos="fade-right" data-aos-duration="1000">
+                            <p class="status">Statut: <span class="red">Non fini</span></p>
+                            <p>Période: 17/01/2025 - 19/02/2025</p>
+                        </header>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>description</h3>
+                            <p>Développement d'un jeu où le joueur doit éliminer des vagues d'ennemis à l'aide de capacités évolutives. Ces capacités s'améliorent au fil de la partie grâce à l'expérience gagnée en combattant.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>fonctionnalités</h3>
+                            <ul>
+                                <li>Interface utilisateur avec affichage de la vie, de l'XP et du temps de la partie.</li>
+                                <li>Génération d'ennemis progressive.</li>
+                                <li>Système de points de vie et de dégâts.</li>
+                                <li>Système d'expérience (gain et accumulation).</li>
+                                <li>Fusion des orbes d'XP en cas de contact.</li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>technologies utilisées</h3>
+                            <ul>
+                                <li>C++</li>
+                                <li>H2DE</li>
+                            </ul>
+                        </div>
+                        <button data-aos="fade-right" data-aos-duration="1000" onclick="window.open('https:\\\\github.com\\Hydrened\\Unnamed-Game-1', '_blank');">Voir le projet sur Github</button>
+                    </div>
+                </article>
+                <article>
+                    <h2 data-aos="fade-right" data-aos-duration="1000">5. Javascript Nodal</h2>
+                    <div class="container">
+                        <header data-aos="fade-right" data-aos-duration="1000">
+                            <p class="status">Statut: <span class="yellow">Prototype fini</span></p>
+                            <p>Période: 14/12/2025 - 05/01/2025</p>
+                        </header>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>description</h3>
+                            <p>Application permettant de développer du JavaScript de manière visuelle via un système de nœuds, à la manière du Blueprints system d'Unreal Engine.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>fonctionnalités</h3>
+                            <ul>
+                                <li>Création, modification et suppression de classes.</li>
+                                <li>Création, modification et suppression de méthodes de classes.</li>
+                                <li>Création, modification et suppression de variables de classes.</li>
+                                <li>Création, modification et suppression de variables dans des méthodes.</li>
+                                <li>Assignation de valeurs par défaut aux variables (classes ou méthodes).</li>
+                                <li>Assignation de paramètres aux classes.</li>
+                                <li>Assignation de paramètres et de retours pour les méthodes.</li>
+                                <li>Création de nœuds avec filtrage par accessibilité.</li>
+                                <li>Liaison entre les nœuds.</li>
+                                <li>Sélection, suppression, copie, collage et découpage de nœuds.</li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>technologies utilisées</h3>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Electron</li>
+                            </ul>
+                        </div>
+                        <button data-aos="fade-right" data-aos-duration="1000" onclick="window.open('https:\\\\github.com\\Hydrened\\Javascript-Nodal', '_blank');">Voir le projet sur Github</button>
+                    </div>
+                </article>
+                <article>
+                    <h2 data-aos="fade-right" data-aos-duration="1000">6. Keysotron</h2>
+                    <div class="container">
+                        <header data-aos="fade-right" data-aos-duration="1000">
+                            <p class="status">Statut: <span class="green">Fini</span></p>
+                            <p>Période: 22/12/2024 - 25/12/2024</p>
+                        </header>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>description</h3>
+                            <p>Application permettant de suivre combien de fois chaque touche a été pressée, en arrière-plan.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>fonctionnalités</h3>
+                            <ul>
+                                <li>Comptage du nombre de fois que chaque touche a été pressée.</li>
+                                <li>Backup quotidien des données.</li>
+                            </ul>
+                        </div>
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <h3>technologies utilisées</h3>
+                            <ul>
+                                <li>C++</li>
+                            </ul>
+                        </div>
+                        <button data-aos="fade-right" data-aos-duration="1000" onclick="window.open('https:\\\\github.com\\Hydrened\\Keysotron', '_blank');">Voir le projet sur Github</button>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <script>
+            AOS.init({
+                once: true,
+            });
+          </script>
+    </body>
+</html>

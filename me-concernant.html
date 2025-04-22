@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Killian Simon - Me Convernant</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/root.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/animations.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/transition.css">
+        <link rel="stylesheet" href="css/background.css">
+        <link rel="stylesheet" href="css/nav-top.css">
+        <link rel="stylesheet" href="css/articles.css">
+        <script src="js/transition-manager.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <div class="transition-effect"></div>
+        <div class="background">
+            <table class="cross-container">
+                <tr>
+                    <td class="cross" move-direction="left" move-delay="700" move-duration="500"></td>
+                </tr>
+                <tr>
+                    <td class="cross" move-direction="left" move-delay="600" move-duration="500"></td>
+                </tr>
+                <tr>
+                    <td class="cross" move-direction="left" move-delay="500" move-duration="500"></td>
+                </tr>
+            </table>
+        </div>
+        <main>
+            <nav class="top" move-direction="bottom" move-delay="200" move-duration="500">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="projets.html">Mes Projets</a></li>
+                </ul>
+            </nav>
+            <section>
+                <article>
+                    <h2 data-aos="fade-right" data-aos-delay="300">présentation</h2>
+                    <div class="container">
+                        <div class="about-me-container">
+                            <div>
+                                <div class="moi" data-aos="fade-right" data-aos-delay="600"></div>
+                                <p data-aos="fade-right" data-aos-delay="700">Adresse mail: killiansimonpro@gmail.com</p>
+                                <button data-aos="fade-right" data-aos-delay="800" onclick="window.open('https:\\\\github.com\\Hydrened', '_blank');">Profil Github</button>
+                                <button data-aos="fade-right" data-aos-delay="900" onclick="window.open('pdf/CV - 2025 Avril.pdf', '_blank');">Visionner mon CV</button>
+                            </div>
+                            <div>
+                                <p data-aos="fade-right" data-aos-delay="400">Je m'appelle Killian Simon, j'ai 23 ans et je vis à Tronville-en-Barrois (55310). Je suis développeur depuis maintenant 5 ans, principalement autodidacte, même si j'ai aussi suivi une licence CRRW à Charleville-Mézières, orientée vers le développement web.</p>
+                                <p data-aos="fade-right" data-aos-delay="500">Le projet dont je suis le plus fier est H2DE, un moteur de jeu 2D que je développe moi-même en C++. C'est un projet évolutif que j'utilise pour créer mes propres jeux, et que j'améliore continuellement au fil de mes besoins. Il représente parfaitement ma façon de travailler : apprendre, expérimenter, optimiser.</p>
+                                <p data-aos="fade-right" data-aos-delay="600">Ce que je recherche avant tout dans un projet, c'est le défi. J'éprouve une vraie satisfaction à réussir quelque chose qui me paraissait insurmontable au départ. Ce genre de situation me pousse à apprendre constamment et à repousser mes limites.</p>
+                                <p data-aos="fade-right" data-aos-delay="700">Au fil des années, j'ai exploré plusieurs technologies, mais c'est dans le C++ que je me sens le plus à l'aise. Je maîtrise également Java, HTML/CSS, JavaScript/TypeScript, PHP et SQL.</p>
+                                <p data-aos="fade-right" data-aos-delay="800">En dehors du développement, j'ai une vraie passion pour l'automobile, un univers qui, comme la programmation, mêle précision, performance et innovation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <script>
+            AOS.init({
+                once: true,
+            });
+        </script>
+    </body>
+</html>
